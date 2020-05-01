@@ -1,0 +1,252 @@
+/**/
+/*Full body Specifications*/
+body{
+    background-color: #f8f8f8;
+}
+/*General Classes for Help*/
+.leftfloat{
+    float: left;
+}
+.rightfloat{
+    float: right;
+}
+.clearfix{
+    clear: both;
+}
+.margin20{
+    margin: 20px;
+}
+.align-center{
+    text-align: center;
+}
+
+/*Page Header*/
+.page-header{
+    margin: 50px;
+}
+
+/*Logo & Company Name*/
+.logo{
+    border: 2px solid black;
+    border-radius: 100px;
+    font-size: 20px;
+}
+.company-name{
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+/*Navigation Menu*/
+.nav{
+    text-align: right;
+    position: sticky;
+    top: 0;
+}
+
+.nav a{
+    color: white;
+    background-color: orange;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px;
+}
+/*Heading Row*/
+hr{
+    margin-top: 30px;
+    border: 2.5px solid rgb(116, 116, 116);
+}
+
+/*Heading 'Store'*/
+h1 {
+    font-size: 98px;
+    text-align: center;
+    color: #003862;
+}
+
+/*Cart Items*/
+
+
+.section-heading{
+    font-size: 42px;
+    font-weight: bold;
+    color: #003862;
+    text-decoration: underline;
+    font-style: italic;
+}
+.cart-item-display{
+    border: 5px groove rgb(124, 124, 124);
+    width: 28%;
+    margin: 20px;
+    padding: 10px;
+}
+.item-name{
+    font-size: 28px;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: left;
+}
+.item-description{
+    font-size: 18px;
+    color: #242424;
+    text-align: center;
+    height: 100px;
+    overflow-y: scroll;
+}
+.item-price{
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    text-align: right;
+}
+.add-to-cart-button{
+    color: white;
+    font-size: 22px;
+    padding: 10px;
+    background-color: rgb(24, 86, 110);
+    border: 5px groove rgb(24, 86, 110);
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/*View Cart Display*/
+.view-cart{
+    width: 90%;
+    margin: auto;
+    margin-top: 150px;
+    background: #adadad;
+    padding: 10px;
+}
+p{
+    text-align: center;
+    margin: 50px;
+    font-size: 42px;
+    letter-spacing: 10px;
+
+}
+
+/*Adding area*/
+.cart-row{
+    display: flex;
+}
+
+.added-items{
+    margin-top: 20px;
+}
+
+.text-item, .text-price, .text-qty{
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    /*border-bottom: 1px solid black;*/
+    margin-right: 20px;
+    padding: 15px;
+}
+.text-item{
+    width: 45%;
+}
+.text-price{
+    width: 23%;
+}
+.text-qty{
+    width: 10%;
+}
+.cart-qty-input{
+    width: 40%;
+    height: 50%;
+    color: white;
+    background-color: inherit;
+    border: 1px solid black;
+    font-size: 22px;
+    padding: 2px;
+}
+.remove-btn{
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+    border: 2px groove red;
+    border-radius: 5px;
+    margin-left: 20%;
+    height: 70px;
+}
+.remove-btn:hover{
+    text-decoration: underline;
+}
+
+.total-amount{
+    margin: 20px;
+    margin-top: 50px;
+    text-align: right;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.purchase-btn{
+    font-size: 24px;
+    color: black;
+    background-color: skyblue;
+    border: 2px solid skyblue;
+    border-radius: 5px;
+    width: 25%;
+}
+/*Back to Top Button*/
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: rgb(134, 134, 134);
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    border-radius: 4px;
+  }
+  #myBtn:hover {
+    background-color: #242424;
+  }  
+  
+
+/*New CSS Start*/
+.shop-item-display{
+    width: 100%;
+}
+.shop-item{
+    width: 28%;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 10px;
+}
+.shop-item-image{
+    display: block;
+    width: 50%;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.shop-item-title{
+    font-size: 32px;
+    text-decoration: underline;
+}
+.shop-item-descp{
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    height: 100px;
+    overflow-y: scroll;
+}
+.shop-item-price{
+    font-size: 22px;
+    color: #003862;
+    text-align: right;
+}
+footer img{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
